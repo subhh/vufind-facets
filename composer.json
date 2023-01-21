@@ -1,0 +1,28 @@
+{
+    "name": "subhh/vufind-facets",
+    "description": "Specialized side facets",
+    "authors": [
+        {
+            "name": "Hajo Seng",
+            "email": "hajo.seng@sub.uni-hamburg.de"
+        },
+        {
+            "name": "David Maus",
+            "email": "david.maus@sub.uni-hamburg.de"
+        }
+    ],
+    "homepage": "https://github.com/subhh/vufind-facets",
+    "license": "GPL-3.0-or-later",
+    "support": {
+        "issues": "https://github.com/subhh/vufind-facets/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "SUBHH\\VuFind\\Facets\\": [ "src/main/php", "src/test/php"]
+        }
+    },
+    "require-dev": {
+        "vufind/vufind": "^8.1",
+        "ahand/mobileesp": "dev-master"
+    }
+}
